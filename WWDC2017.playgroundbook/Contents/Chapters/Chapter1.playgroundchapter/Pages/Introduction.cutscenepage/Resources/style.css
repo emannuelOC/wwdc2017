@@ -1,0 +1,110 @@
+html, body {
+    font-size: 100%;
+    font-family: helvetica, sans-serif;
+}
+
+pre, code {
+    white-space: pre;
+    speak: literal-punctuation;
+    font-family: monaco, monospace;
+    font-size: 1.8rem;
+}
+
+#main_container {
+    color: #fff;
+    font-size: 43pt;
+    text-align: center;
+}
+
+#introduction_icon {
+    width: 300px;
+}
+
+#title_text {
+    font-size: 20pt;
+    text-align: left;
+    margin-left: 50pt;
+    margin-top: 50pt;
+    height: 120px;
+    vertical-align: middle;
+}
+
+#item_container {
+    /*background-color: #f1f1f1;*/
+    text-align: center;
+    display: inline-block;
+}
+
+#item_image_div {
+    text-align: left;
+    /*background-color: #fff;*/
+    width: 350px;
+    float: left;
+    padding: 20px;
+    border-right-color: #fff;
+    border-right-width: 2pt;
+    border-right-style: solid;
+}
+
+#item_image {
+    width: 350px;
+}
+
+#item_text {
+    
+    font-size: 44pt;
+    width: 350px;
+    /*background-color: #999;*/
+    /*display: inline-block;*/
+    float: left;
+    text-align: left;
+    padding: 30px;
+}
+
+/* controling pages */
+
+#control_buttons {
+    
+    color: #fff;
+    font-size: 20pt;
+    margin: 0 auto;
+    line-height: 60px;
+    height: 60px;
+    /*background-color: #f1f1f1;*/
+    width: 300px;
+    text-align: center;
+}
+
+#page_number {
+    /*background-color: #a2e;*/
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#back_button {
+    background: url(back.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-width: 0px;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#next_button {
+    background: url(next.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: #fff;
+    vertical-align: bottom;
+}
